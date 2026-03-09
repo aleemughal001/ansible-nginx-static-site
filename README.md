@@ -15,3 +15,7 @@ This project demonstrates how to use Ansible to:
 ansible-playbook install_nginx_play.yml
 ansible-playbook deploy_static_page_play.yml
 
+## Result
+The production server serves the static site:
+
+![Static site screenshot](screenshot.png)
