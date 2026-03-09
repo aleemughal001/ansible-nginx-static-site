@@ -17,5 +17,4 @@ ansible-playbook deploy_static_page_play.yml
 
 ## Result
 The production server serves the static site:
-
-<img width="1851" height="851" alt="Screenshot" src="https://github.com/user-attachments/assets/7e8bd066-bec5-4dc4-be00-e9ee51e6f5ed" />
+![Static site screenshot](Screenshot.png)
