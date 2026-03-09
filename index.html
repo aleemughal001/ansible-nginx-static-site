@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Cool Static Site</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(120deg, #3498db, #8e44ad);
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            padding: 40px;
+            background: rgba(0,0,0,0.3);
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        section p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: auto;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: #2ecc71;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .button:hover {
+            background: #27ae60;
+        }
+        footer {
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚀 Welcome to My Static Site</h1>
+        <p>Deployed with Ansible + Nginx</p>
+    </header>
+
+    <section>
+        <h2>About This Page</h2>
+        <p>
+            This is a simple static website deployed automatically using Ansible. 
+            It demonstrates how infrastructure automation can deliver real content 
+            to production servers with just one playbook run.
+        </p>
+        <a href="https://bit.ly/devops-batch-4" class="button">Learn More</a>
+    </section>
+
+    <footer>
+        &copy; 2026 My Static Site | Powered by Ansible
+    </footer>
+</body>
+</html>
+
